@@ -1,0 +1,23 @@
+.login input{
+    width: 316px;
+    height: 38px;
+    background-color: var(--color-grey-1);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 4px;
+    color: var(--color-grey-6);
+    padding: 8px 13px;
+    margin-bottom: 20px;
+}
+.login button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 93px;
+gap: 10px;
+width: 316px;
+height: 38px;
+background: var(--color-brand-2); opacity: 0.4;
+border-radius: 4px;
+cursor: pointer;
+}
