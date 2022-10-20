@@ -21,9 +21,16 @@
  .last-users{
   display: flex;
   gap:19px;
+  align-items: center;
  }
  .list-last{
   display: flex;
   gap: 11px;
   list-style: none;
+ }
+ .last-user{
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  object-fit: cover;
  }
