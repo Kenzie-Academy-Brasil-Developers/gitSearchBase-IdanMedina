@@ -15,15 +15,19 @@
       <section class="logo">
         <h1>Git Search</h1>
         <p class="x">Encontre e se conecte com profissionais de forma rápida e fácil</p>
-        <span>Achados Recentemente:</span>
+        <div class="last-users">
+          <span>Achados Recentemente:</span>
+          <ul class="list-last"></ul>
+        </div>
       </section>
       <form class="login">
         <h2>Procurar um usuário</h2>
         <h3>Usuário github</h3>
-        <input placeholder="Digite um usuário do github aqui...">
-        <button>Ver perfil do github</button>
+        <input id="input" placeholder="Digite um usuário do github aqui...">
+        <div class="not-found"></div>
+        <button id="profile-btn" class="profile-btn">Ver perfil do github</button>
       </form>
     </main>
-    <script src="./pages/home/index.js"></script>
+    <script src="./pages/home/index.js" type= "module" ></script>
   </body>
 </html>

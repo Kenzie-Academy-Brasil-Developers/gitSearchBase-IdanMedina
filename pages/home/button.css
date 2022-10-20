@@ -6,18 +6,31 @@
     border-radius: 4px;
     color: var(--color-grey-6);
     padding: 8px 13px;
-    margin-bottom: 20px;
+    
 }
-.login button{
-    display: flex;
+.profile-btn{
+display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
+margin-top: 20px;
 padding: 10px 93px;
 gap: 10px;
 width: 316px;
 height: 38px;
 background: var(--color-brand-2); opacity: 0.4;
 border-radius: 4px;
+color: var(--color-grey-7);
+font-family: inherit;
 cursor: pointer;
+}
+
+.on-btn{
+background: var(--color-brand-2); opacity: 0;
+animation: spinning 2s ease;
+}
+
+@keyframes spinning {
+    100%{transform:rotate(360deg)}
+    100%{transform: rotate(360deg)}
 }

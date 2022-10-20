@@ -5,20 +5,26 @@
 }
 .logo p {
     margin-bottom: 55px;
-    font-size: var(--title-2);
+    font-size: var(--title-3);
     font-weight: 400;
     line-height: 30px;
 }
 .logo span{
-    font-size: var(--text-2);
+    font-size: var(--text-3);
     font-weight: 500;
 
 }
 .login h2{
-    font-size: var(--title-2);
+    font-size: var(--title-3);
     margin-bottom: 45px;
 }
 .login h3{
     font-size: var(--text-3);
     margin-bottom: 1rem;
+}
+.not-found{
+    font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: var(--color-alert)
 }

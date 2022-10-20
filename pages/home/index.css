@@ -1,23 +1,29 @@
 .logo {
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: inherit;
-    height: inherit;
-    background-color: var(--color-brand-1);
-    color: var(--color-grey-7);
-    padding-left: 151px;
-}
-.login{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: inherit;
-    height: inherit;
-    background-color: var(--color-grey-3);
-    color: var(--color-grey-7);
-    padding-left: 189px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: inherit;
+  height: inherit;
+  background-color: var(--color-brand-1);
+  color: var(--color-grey-7);
+  padding-left: 151px;
 }
 
-
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: inherit;
+  height: inherit;
+  color: var(--color-grey-7);
+  padding-left: 189px;
+}
+ .last-users{
+  display: flex;
+  gap:19px;
+ }
+ .list-last{
+  display: flex;
+  gap: 11px;
+  list-style: none;
+ }

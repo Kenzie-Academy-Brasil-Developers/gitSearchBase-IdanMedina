@@ -1,0 +1,20 @@
+.profile-id h2{
+    font-size: var(--title-2);
+    font-weight: 700;
+}
+.profile-id span{
+    color: var(--color-grey-7); opacity: 0.5;
+    font-size: var(--title-4);
+    font-weight: 500;
+}
+.info h2{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.info p{
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
