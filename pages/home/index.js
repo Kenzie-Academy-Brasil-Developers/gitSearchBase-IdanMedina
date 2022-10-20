@@ -5,6 +5,16 @@ const input = document.getElementById("input");
 const button = document.getElementById("profile-btn");
 const notFound = document.querySelector(".not-found")
 
+input.addEventListener("keyup", (e) =>{
+if(e.target.value !== ""){
+  button.classList.toggle("on-btn")
+  button.disabled = false
+}else{
+  button.classList.toggle("on-btn")
+  button.disabled = true
+}
+})
+
 button.addEventListener("click", async  (e) => {
   e.preventDefault()
   notFound.innerText = ""
@@ -24,4 +34,3 @@ button.addEventListener("click", async  (e) => {
   window.location.assign("pages/profile/profile.html")
 })
 
-console.log(await getUser("xtrakey"))

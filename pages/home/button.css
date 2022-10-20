@@ -8,7 +8,7 @@
     padding: 8px 13px;
     
 }
-.profile-btn{
+.off-btn{
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -26,8 +26,8 @@ cursor: pointer;
 }
 
 .on-btn{
-background: var(--color-brand-2); opacity: 0;
-animation: spinning 2s ease;
+background: var(--color-brand-2); opacity: 1;
+/* animation: spinning 2s ease; */
 }
 
 @keyframes spinning {
