@@ -18,19 +18,16 @@
   color: var(--color-grey-7);
   padding-left: 189px;
 }
- .last-users{
+.last-users {
   display: flex;
-  gap:19px;
+  gap: 19px;
   align-items: center;
- }
- .list-last{
+}
+.list-last {
   display: flex;
   gap: 11px;
   list-style: none;
- }
- .last-user{
-  height: 44px;
-  width: 44px;
-  border-radius: 50%;
-  object-fit: cover;
- }
+}
+#lilbox {
+  position: relative;
+}
