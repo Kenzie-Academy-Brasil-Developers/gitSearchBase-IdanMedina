@@ -8,16 +8,16 @@ const listUsers = JSON.parse(localStorage.getItem("last-users")) || [];
 
 input.addEventListener("keyup", (e) => {
   if (e.target.value !== "") {
-    button.classList.toggle("on-btn");
+    button.classList.add("on-btn");
     button.disabled = false;
   } else {
-    button.classList.toggle("on-btn");
+    button.classList.remove("on-btn");
     button.disabled = true;
   }
 });
 
 const imgBtn = document.createElement("img");
-imgBtn.src = "../assets/spinner.png";
+imgBtn.src = "/pages/assets/spinner.png";
 
 button.addEventListener("click", async (e) => {
   e.preventDefault();
